@@ -18,7 +18,7 @@ namespace th
 		~max_heap();
 		// add element to max heap
 		void insert(int value);
-		// return the max value of heap, -1 empty
+		// return the max value of heap, -1 if empty
 		int get_max();
 		// return size of heap
 		int get_size();
